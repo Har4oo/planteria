@@ -55,13 +55,13 @@ body {
 }
 
 a {
-  color: var(--accent-color);
+  color: #FD924E;
   text-decoration: none;
   transition: 0.3s;
 }
 
 a:hover {
-  color: rgba(var(--accent-color-rgb), 0.75);
+  color: #FD924E;
   text-decoration: none;
 }
 
@@ -81,11 +81,14 @@ h6 {
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 20px 0;
   transition: all 0.5s;
   z-index: 997;
 }
 
+.logo-new{
+  height: 150px;
+  width: 150px;
+}
 .header .logo {
   line-height: 1;
 }
@@ -682,7 +685,7 @@ section,
   content: "";
   width: 50px;
   height: 2px;
-  background: var(--accent-color);
+  background: #40A578;
   display: inline-block;
 }
 
@@ -753,7 +756,7 @@ section,
 }
 
 .hero .sign-up-form {
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 10px;
   border-radius: 7px;
   background: #fff;
@@ -901,8 +904,8 @@ section,
   font-size: 32px;
   line-height: 0;
   transition: all 0.4s ease-out 0s;
-  background-color: rgba(var(--accent-color-rgb), 0.05);
-  color: var(--accent-color);
+
+  color: #40A578;
 }
 
 .about .icon-box h3 {
@@ -986,7 +989,7 @@ section,
   font-family: var(--heading-font);
   font-size: 16px;
   font-weight: 700;
-  color: rgba(var(--default-color-rgb), 0.6);
+  color: #40A578;
 }
 
 /*--------------------------------------------------------------
@@ -1089,7 +1092,7 @@ section,
 }
 
 .features .features-item .btn-get-started {
-  background-color: var(--accent-color);
+  background-color: #40A578;
   color: var(--contrast-color);
   padding: 8px 30px 10px 30px;
   border-radius: 4px;
@@ -1193,7 +1196,7 @@ section,
 .portfolio .portfolio-filters li:hover,
 .portfolio .portfolio-filters li.filter-active {
   color: var(--contrast-color);
-  background-color: var(--accent-color);
+  background-color: #40A578;
 }
 
 .portfolio .portfolio-filters li:first-child {
@@ -1297,7 +1300,7 @@ section,
   margin: 30px auto 20px auto;
   width: 70px;
   height: 70px;
-  background: var(--accent-color);
+  background: #40A578;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1337,7 +1340,7 @@ section,
 
 .pricing h4 {
   font-size: 48px;
-  color: var(--accent-color);
+  color: #40A578;
   font-weight: 700;
   font-family: var(--heading-font);
   margin-bottom: 25px;
@@ -1401,13 +1404,13 @@ section,
 }
 
 .pricing .buy-btn:hover {
-  background-color: var(--accent-color);
+  background-color: #40A578;
   color: var(--contrast-color);
 }
 
 .pricing .featured {
   z-index: 10;
-  border: 3px solid var(--accent-color);
+  border: 3px solid #40A578;
 }
 
 @media (min-width: 992px) {
@@ -1485,11 +1488,11 @@ section,
 }
 
 .faq .faq-container .faq-item .faq-toggle:hover {
-  color: var(--accent-color);
+  color:#40A578;
 }
 
 .faq .faq-container .faq-active h3 {
-  color: var(--accent-color);
+  color:#40A578;
 }
 
 .faq .faq-container .faq-active .faq-content {
@@ -1501,7 +1504,7 @@ section,
 
 .faq .faq-container .faq-active .faq-toggle {
   transform: rotate(90deg);
-  color: var(--accent-color);
+  color:#40A578;
 }
 
 /*--------------------------------------------------------------
